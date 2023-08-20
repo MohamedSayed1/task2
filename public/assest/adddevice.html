@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+
+<html class="loading" lang="en">
+<!-- BEGIN : Head-->
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <meta name="description" content=" Basma Web">
+    <meta name="keywords" content=" ">
+    <meta name="author" content="minecores by khaled">
+    <title>Basma Web</title>
+    <link rel="shortcut icon" type="image/x-icon" href="app-assets/img/ico/favicon.ico">
+    <link rel="shortcut icon" type="image/png" href="app-assets/img/ico/favicon-32.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-touch-fullscreen" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700,900|Montserrat:300,400,500,600,700,800,900" rel="stylesheet"> -->
+    <!-- BEGIN VENDOR CSS-->
+    <!-- font icons-->
+    <link rel="stylesheet" type="text/css" href="app-assets/fonts/feather/style.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/fonts/simple-line-icons/style.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/perfect-scrollbar.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/prism.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/switchery.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/pickadate/pickadate.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/datatables/dataTables.bootstrap4.min.css">
+    <!-- END VENDOR CSS-->
+    <!-- BEGIN APEX CSS-->
+    <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/bootstrap-extended.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/colors.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/components.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/themes/layout-dark.css">
+    <link rel="stylesheet" href="app-assets/css-rtl/plugins/switchery.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/css-rtl/custom-rtl.css">
+    <!-- END APEX CSS-->
+    <!-- BEGIN Page Level CSS-->
+    <link rel="stylesheet" href="app-assets/css/pages/page-users.css">
+    <link rel="stylesheet" href="app-assets/css/plugins/form-validation.css">
+    <link rel="stylesheet" href="app-assets/css/pages/page-users.css">
+    <!-- END Page Level CSS-->
+    <!-- BEGIN: Custom CSS-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style-rtl.css">
+    <!-- END: Custom CSS-->
+</head>
+<!-- END : Head-->
+
+<!-- BEGIN : Body-->
+
+<body class="vertical-layout vertical-menu 2-columns  navbar-sticky" data-menu="vertical-menu" data-col="2-columns">
+
+    <!-- Navbar (Header) Starts-->
+    <nav class="navbar navbar-expand-lg navbar-light header-navbar navbar-fixed">
+        <div class="container-fluid navbar-wrapper">
+            <div class="navbar-header d-flex">
+                <div class="navbar-toggle menu-toggle d-xl-none d-block float-left align-items-center justify-content-center" data-toggle="collapse"><i class="ft-menu font-medium-3"></i></div>
+                <ul class="navbar-nav">
+                    <li class="nav-item mr-2 d-none d-lg-block"><a class="nav-link apptogglefullscreen" id="navbar-fullscreen" href="javascript:;"><i class="ft-maximize font-medium-3"></i></a></li>
+
+                </ul>
+            </div>
+            <div class="navbar-container">
+                <div class="collapse navbar-collapse d-block" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+
+
+                        <li class="dropdown nav-item mr-1">
+                            <a class="nav-link dropdown-toggle user-dropdown d-flex align-items-end" id="dropdownBasic2" href="javascript:;" data-toggle="dropdown">
+                                <div class="user d-md-flex d-none mr-2"><span class="text-right">John Doe</span><span class="text-right text-muted font-small-3">Available</span></div><img class="avatar" src="app-assets/img/portrait/small/avatar-s-1.png" alt="avatar" height="35" width="35">
+                            </a>
+                            <div class="dropdown-menu text-left dropdown-menu-right m-0 pb-0" aria-labelledby="dropdownBasic2">
+                                <a class="dropdown-item" href="javascript:void(0)">
+                                    <div class="d-flex align-items-center"><i class="ft-message-square mr-2"></i><span>شات </span></div>
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="javascript:void(0)">
+                                    <div class="d-flex align-items-center"><i class="ft-edit mr-2"></i><span>تعديل الملف الشخصى </span></div>
+                                </a>
+
+
+                                <a class="dropdown-item" href="index.html">
+                                    <div class="d-flex align-items-center"><i class="ft-power mr-2"></i><span>تسجيل الخروج </span></div>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar (Header) Ends-->
+
+    <!-- ////////////////////////////////////////////////////////////////////////////-->
+    <div class="wrapper">
+
+
+        <!-- main menu-->
+        <!--.main-menu(class="#{menuColor} #{menuOpenType}", class=(menuShadow == true ? 'menu-shadow' : ''))-->
+        <div class="app-sidebar menu-fixed" data-background-color="man-of-steel" data-image="app-assets/img/sidebar-bg/01.jpg" data-scroll-to-active="true">
+            <!-- main menu header-->
+            <!-- Sidebar Header For Starter Kit starts-->
+            <div class="sidebar-header">
+                <div class="logo clearfix">
+                    <a class="logo-text float-left" href="javascript:;">
+                        <div class="logo-img"><img src="app-assets/img/logo.png" /></div><span class="text">APEX</span>
+                    </a><a class="nav-toggle d-none d-lg-none d-xl-block" id="sidebarToggle" href="javascript:;"><i class="toggle-icon ft-toggle-right" data-toggle="expanded"></i></a><a class="nav-close d-block d-lg-block d-xl-none" id="sidebarClose"
+                        href="javascript:;"><i class="ft-x"></i></a></div>
+            </div>
+            <!-- Sidebar Header Ends-->
+            <!-- / main menu header-->
+            <!-- main menu content-->
+            <div class="sidebar-content main-menu-content">
+                <div class="nav-container">
+                    <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+                        <li class=" active nav-item"><a href="dashboard.html"><i class="ft-home"></i><span class="menu-title" data-i18n="Dashboard">الرئيسية</span></a>
+                        </li>
+                        <li class="has-sub nav-item active"><a href="javascript:;"><i class="ft-align-left"></i><span class="menu-title" data-i18n="Menu Levels">العملاء</span></a>
+                            <ul class="menu-content">
+                                <li><a href="clients.html"><i class="ft-arrow-right submenu-icon"></i><span class="menu-item" data-i18n="Second Level">دليل العملاء</span></a></li>
+                                <li><a href="addclient.html"><i class="ft-arrow-right submenu-icon"></i><span class="menu-item" data-i18n="Second Level">اضافة عميل</span></a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- main menu content-->
+            <div class="sidebar-background"></div>
+            <!-- main menu footer-->
+            <!-- include includes/menu-footer-->
+            <!-- main menu footer-->
+        </div>
+        <!-- / main menu-->
+
+        <div class="main-panel">
+            <!-- BEGIN : Main Content-->
+            <div class="main-content">
+                <div class="content-overlay"></div>
+                <div class="content-wrapper">
+                    <section class="users-edit">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card">
+                                    <div class="card-content">
+                                        <div class="card-body">
+                                            <!-- Nav-tabs -->
+                                            <ul class="nav nav-tabs" role="tablist">
+                                                <li class="nav-item">
+                                                    <a href="#account" role="tab" id="account-tab" class="nav-link d-flex align-items-center active" data-toggle="tab" aria-controls="account" aria-selected="true">
+                                                        <i class="ft-user mr-1"></i>
+                                                        <span class="d-none d-sm-block">الاجهزة السابقة </span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#information" role="tab" id="information-tab" class="nav-link d-flex align-items-center" data-toggle="tab" aria-controls="information" aria-selected="false">
+                                                        <i class="ft-info mr-1"></i>
+                                                        <span class="d-none d-sm-block">اضافة جهاز </span>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content">
+                                                <!-- Account content starts -->
+                                                <div class="tab-pane fade mt-2 show active" id="account" role="tabpanel" aria-labelledby="account-tab">
+                                                    <table id="users-list-datatable" class="table">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>الماركة</th>
+                                                                <th>الموديل </th>
+                                                                <th>رقم الموديل </th>
+                                                                <th>سيريال نمبر </th>
+                                                                <th>العطل </th>
+                                                                <th>الحالة الحالية </th>
+                                                                <th>ملاحظات   </th>
+                                                                <th>صور للجهاز </th>
+                                                                <th>تعديل الحالة </th>
+
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>سامسونج </td>
+                                                                <td>A20</td>
+                                                                <td>01014217775</td>
+                                                                <td>01010214571</td>
+                                                                <td>تغيير شاشة</td>
+                                                                <td>تغيير شاشة</td>
+                                                                <td>تغيير شاشة</td>
+                                                                <td><a href="photos.html">الصور</a> </td>
+                                                                <td>
+                                                                    <a href="editstatus.html">
+                                                                        <i class="ft-edit"></i>
+                                                                    </a>
+                                                                </td>
+
+                                                            </tr>
+
+
+
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                                <!-- Account content ends -->
+                                                <div class="tab-pane fade mt-2" id="information" role="tabpanel" aria-labelledby="information-tab">
+                                                    <form novalidate>
+                                                        <div class="row">
+                                                            <div class="col-12 col-md-6">
+                                                                <div class="form-group">
+                                                                    <label for="users-edit-languages">الماركة </label>
+                                                                    <select id="users-edit-languages" class="select2 form-control" aria-hidden="true">
+                                                                        <option value="English" selected>اختر</option>
+                                                                        <option value="Spanish">Spanish</option>
+                                                                        <option value="French">French</option>
+                                                                        <option value="Russian">Russian</option>
+                                                                        <option value="German">German</option>
+                                                                        <option value="Hindi">Hindi</option>
+                                                                        <option value="Arabic">Arabic</option>
+                                                                        <option value="Sanskrit">Sanskrit</option>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <div class="controls">
+                                                                        <label for="mob3">رقم الموديل  </label>
+                                                                        <input type="email" id="mob3" class="form-control" placeholder="رقم المتابعة " required aria-invalid="false">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <div class="controls">
+                                                                        <label for="mob2">السيريال </label>
+                                                                        <input type="email" id="mob2" class="form-control" placeholder="رقم الموبايل " required aria-invalid="false">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="col-12 col-md-6">
+                                                                <div class="form-group">
+                                                                    <label for="users-edit-music">الموديل</label>
+                                                                    <select id="users-edit-music" class="select2 form-control" aria-hidden="true">
+                                                                        <option value="Rock" selected>اختر</option>
+                                                                        <option value="Jazz">Jazz</option>
+                                                                        <option value="Disco">Disco</option>
+                                                                        <option value="Pop">Pop</option>
+                                                                        <option value="Techno">Techno</option>
+                                                                        <option value="Folk">Folk</option>
+                                                                        <option value="Hip Hop" selected>Hip Hop</option>
+                                                                    </select>
+                                                                </div>
+
+                                                                <div class="form-group">
+                                                                    <div class="controls">
+                                                                        <label for="users-edit-address">العطل   </label>
+                                                                        <input type="text" id="users-edit-address" class="form-control" placeholder="العطل   " required aria-invalid="false">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <div class="controls">
+                                                                        <label for="users-edit-company">صور للجهاز   </label>
+                                                                        <input type="file" id="users-edit-company" class="form-control" placeholder="صور للجهاز ">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+
+                                                            <div class="col-12 d-flex flex-sm-row flex-column justify-content-end mt-3 mt-sm-2">
+                                                                <button type="submit" class="btn btn-primary mb-2 mb-sm-0 mr-sm-2">Save Changes</button>
+                                                                <button type="reset" class="btn btn-secondary">Cancel</button>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+            <!-- END : End Main Content-->
+
+            <!-- BEGIN : Footer-->
+            <footer class="footer undefined undefined">
+                <p class="clearfix text-muted m-0"><span>Copyright &copy; 2023 &nbsp;</span>Minecores<span class="d-none d-sm-inline-block">, All rights reserved.</span></p>
+            </footer>
+            <!-- End : Footer-->
+            <!-- Scroll to top button -->
+            <button class="btn btn-primary scroll-top" type="button"><i class="ft-arrow-up"></i></button>
+
+        </div>
+    </div>
+    <!-- ////////////////////////////////////////////////////////////////////////////-->
+
+    <div class="sidenav-overlay"></div>
+    <div class="drag-target"></div>
+    <!-- BEGIN VENDOR JS-->
+    <script src="app-assets/vendors/js/vendors.min.js"></script>
+    <script src="app-assets/vendors/js/switchery.min.js"></script>
+    <!-- BEGIN VENDOR JS-->
+    <!-- BEGIN PAGE VENDOR JS-->
+    <script src="app-assets/vendors/js/select2.full.min.js"></script>
+    <script src="app-assets/vendors/js/jqBootstrapValidation.js"></script>
+    <script src="app-assets/vendors/js/pickadate/picker.js"></script>
+    <script src="app-assets/vendors/js/pickadate/picker.date.js"></script>
+    <script src="app-assets/vendors/js/pickadate/picker.time.js"></script>
+    <script src="app-assets/vendors/js/pickadate/legacy.js"></script>
+    <script src="app-assets/vendors/js/datatable/jquery.dataTables.min.js"></script>
+    <script src="app-assets/vendors/js/datatable/dataTables.bootstrap4.min.js"></script>
+    <!-- BEGIN APEX JS-->
+    <script src="app-assets/js/core/app-menu.js"></script>
+    <script src="app-assets/js/core/app.js"></script>
+    <script src="app-assets/js/notification-sidebar.js"></script>
+    <script src="app-assets/js/customizer.js"></script>
+    <script src="app-assets/js/scroll-top.js"></script>
+    <!-- END APEX JS-->
+    <!-- BEGIN PAGE LEVEL JS-->
+    <script src="app-assets/js/page-users.js"></script>
+    <script src="app-assets/js/datetime-picker.js"></script>
+    <script src="app-assets/js/select2.js"></script>
+    <script src="app-assets/js/form-validation.js"></script>
+
+    <!-- END PAGE LEVEL JS-->
+    <!-- BEGIN: Custom CSS-->
+    <script src="assets/js/scripts.js"></script>
+    <!-- END: Custom CSS-->
+</body>
+<!-- END : Body-->
+
+</html>
